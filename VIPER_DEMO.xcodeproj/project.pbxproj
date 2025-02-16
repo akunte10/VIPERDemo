@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A0BE4CC2B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BE4CB2B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUIApp.swift */; };
-		7A0BE4CE2B5A6B16003E15F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BE4CD2B5A6B16003E15F0 /* ContentView.swift */; };
 		7A0BE4D02B5A6B1C003E15F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BE4CF2B5A6B1C003E15F0 /* Assets.xcassets */; };
 		7A0BE4D32B5A6B1C003E15F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0BE4D22B5A6B1C003E15F0 /* Preview Assets.xcassets */; };
 		7A0BE4DB2B5A7718003E15F0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7A0BE4DA2B5A7718003E15F0 /* Alamofire */; };
@@ -39,9 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A0BE4C82B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_DEMO_SWIFTUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0BE4CB2B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_DEMO_SWIFTUIApp.swift; sourceTree = "<group>"; };
-		7A0BE4CD2B5A6B16003E15F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A0BE4C82B5A6B16003E15F0 /* VIPER_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0BE4CF2B5A6B1C003E15F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0BE4D22B5A6B1C003E15F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A9231342B5A7C1E00644313 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -93,7 +89,7 @@
 		7A0BE4C92B5A6B16003E15F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A0BE4C82B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUI.app */,
+				7A0BE4C82B5A6B16003E15F0 /* VIPER_DEMO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +97,6 @@
 		7A0BE4CA2B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUI */ = {
 			isa = PBXGroup;
 			children = (
-				7A0BE4CB2B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUIApp.swift */,
 				7A92315F2B5A7C1E00644313 /* app-icons */,
 				7A92313C2B5A7C1E00644313 /* app-modules */,
 				7A9231352B5A7C1E00644313 /* app-settings */,
@@ -109,7 +104,6 @@
 				7A9231582B5A7C1E00644313 /* Assets.xcassets */,
 				7A9231592B5A7C1E00644313 /* common-utils */,
 				7A9231332B5A7C1E00644313 /* Preview Content */,
-				7A0BE4CD2B5A6B16003E15F0 /* ContentView.swift */,
 				7A0BE4CF2B5A6B1C003E15F0 /* Assets.xcassets */,
 				7A0BE4D12B5A6B1C003E15F0 /* Preview Content */,
 			);
@@ -318,9 +312,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A0BE4C72B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUI */ = {
+		7A0BE4C72B5A6B16003E15F0 /* VIPER_DEMO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0BE4D62B5A6B1C003E15F0 /* Build configuration list for PBXNativeTarget "VIPER_DEMO_SWIFTUI" */;
+			buildConfigurationList = 7A0BE4D62B5A6B1C003E15F0 /* Build configuration list for PBXNativeTarget "VIPER_DEMO" */;
 			buildPhases = (
 				7A0BE4C42B5A6B16003E15F0 /* Sources */,
 				7A0BE4C52B5A6B16003E15F0 /* Frameworks */,
@@ -330,14 +324,14 @@
 			);
 			dependencies = (
 			);
-			name = VIPER_DEMO_SWIFTUI;
+			name = VIPER_DEMO;
 			packageProductDependencies = (
 				7A0BE4DA2B5A7718003E15F0 /* Alamofire */,
 				7A9231782B5A815100644313 /* AlamofireImage */,
 				7A92317B2B5A816B00644313 /* ObjectMapper */,
 			);
 			productName = VIPER_DEMO_SWIFTUI;
-			productReference = 7A0BE4C82B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUI.app */;
+			productReference = 7A0BE4C82B5A6B16003E15F0 /* VIPER_DEMO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -355,7 +349,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7A0BE4C32B5A6B16003E15F0 /* Build configuration list for PBXProject "VIPER_DEMO_SWIFTUI" */;
+			buildConfigurationList = 7A0BE4C32B5A6B16003E15F0 /* Build configuration list for PBXProject "VIPER_DEMO" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -373,7 +367,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A0BE4C72B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUI */,
+				7A0BE4C72B5A6B16003E15F0 /* VIPER_DEMO */,
 			);
 		};
 /* End PBXProject section */
@@ -408,13 +402,11 @@
 				7A92316B2B5A7C1E00644313 /* NoticeRouter.swift in Sources */,
 				7A92316A2B5A7C1E00644313 /* NoticeInteractor.swift in Sources */,
 				7A92316F2B5A7C1F00644313 /* MovieProtocol.swift in Sources */,
-				7A0BE4CE2B5A6B16003E15F0 /* ContentView.swift in Sources */,
 				7A9231742B5A7C1F00644313 /* AppUtils.swift in Sources */,
 				7A9231652B5A7C1E00644313 /* NoticePresenter.swift in Sources */,
 				7A92316D2B5A7C1E00644313 /* MoviePresenter.swift in Sources */,
 				7A9231702B5A7C1F00644313 /* MovieInteractor.swift in Sources */,
 				7A9231752B5A7C1F00644313 /* ProgressIndicator.swift in Sources */,
-				7A0BE4CC2B5A6B16003E15F0 /* VIPER_DEMO_SWIFTUIApp.swift in Sources */,
 				7A9231672B5A7C1E00644313 /* MyViewController.swift in Sources */,
 				7A9231712B5A7C1F00644313 /* MovieRouter.swift in Sources */,
 				7A9231662B5A7C1E00644313 /* NoticeViewController.swift in Sources */,
@@ -619,7 +611,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A0BE4C32B5A6B16003E15F0 /* Build configuration list for PBXProject "VIPER_DEMO_SWIFTUI" */ = {
+		7A0BE4C32B5A6B16003E15F0 /* Build configuration list for PBXProject "VIPER_DEMO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A0BE4D42B5A6B1C003E15F0 /* Debug */,
@@ -628,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0BE4D62B5A6B1C003E15F0 /* Build configuration list for PBXNativeTarget "VIPER_DEMO_SWIFTUI" */ = {
+		7A0BE4D62B5A6B1C003E15F0 /* Build configuration list for PBXNativeTarget "VIPER_DEMO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A0BE4D72B5A6B1C003E15F0 /* Debug */,

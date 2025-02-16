@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/ajaykunte/Documents/Projects/VIPER_DEMO_SWIFTUI/VIPER_DEMO.xcodeproj">
    </FileRef>
 </Workspace>
